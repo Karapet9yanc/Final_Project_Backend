@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const purchasecheme = new Schema({
-  text: String,
-  text2: Number,
+  shop: String,
+  price: Number,
   date: String,
 });
 
